@@ -20,6 +20,7 @@ const loadData = async () => {
 loadData()
 
 setInterval(() => {
+  
 	loadData()
 }, 2000)
 
